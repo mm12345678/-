@@ -1,0 +1,46 @@
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+#div{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    margin: 30px auto;
+}
+#div span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #FF00F6;
+    position: absolute;
+    border-radius: 30%;
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    background-position: 3px;
+}
+i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #7CB7F3;
+    position: absolute;
+    border-radius: 30%;
+}
+.div1{
+    position: relative;
+    font-size: 18px;
+    top: -500px;
+    left: 150px;
+   width: 200px;
+   
+}
+#score{
+    color: red;
+    font-weight: bold;
+    position: relative;
+    transition: all .5s;
+    top: 0;
+    opacity: 1;
+}
